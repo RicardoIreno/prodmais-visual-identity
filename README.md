@@ -31,7 +31,7 @@ This tool is idealized by [Alexsandro Cardoso](https://orcid.org/0000-0002-9556-
 ### Prodmais before my entry into the project
 
 <p align="center">
-  <img src="__readme_src/before.png">
+  <img width="800" src="__readme_src/before.png">
 </p>
 
 
@@ -39,14 +39,14 @@ This tool is idealized by [Alexsandro Cardoso](https://orcid.org/0000-0002-9556-
 
 
 <p align="center">
-  <img src="__readme_src/now.png">
+  <img width="800" src="__readme_src/now.png">
 </p>
 
 
 **A diferent presentation in mobile devices**
 
 <p align="center">
-  <img width="300" src="__readme_src/mobile.png">
+  <img width="400" src="__readme_src/now-mobile.png">
 </p>
 
 
