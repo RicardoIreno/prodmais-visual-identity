@@ -5,8 +5,10 @@
 ![](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
 
 
-[Prodmais Hotsite](https://unifesp.br/prodmais/promo/)  
-[Visit Prodmais](https://unifesp.br/prodmais/)
+- 💻 Visit Prodmais on <https://unifesp.br/prodmais/>
+- 🎨 Visual project on [Behance](https://www.behance.net/gallery/122041173/Prodmais-identidade-visual).
+- ⭐ [Prodmais Hotsite](https://unifesp.br/prodmais/promo/)  
+
 
 
 ## About Prodmais
@@ -17,12 +19,6 @@ Prodmais is a tool that aggregates information about academic productions from d
 This tool is idealized by [Alexsandro Cardoso](https://orcid.org/0000-0002-9556-2908), developed and maintained by [STI](https://sti.unifesp.br), and has [Tiago Murakami](https://github.com/trmurakami) as its main programmer, and me as a graphic and frontend designer.
 
 
-### Prodmais before my entry into the project
-
-<p align="center">
-  <img src="__readme_src/before.png">
-</p>
-
 ### My role in this project
 
 - create a logomark and a visual identity
@@ -32,58 +28,15 @@ This tool is idealized by [Alexsandro Cardoso](https://orcid.org/0000-0002-9556-
 - create a hotsite
 
 
-
-## My Work
-
-### Visual identity
-
-You also can it see on [Behance](https://www.behance.net/gallery/122041173/Prodmais-identidade-visual).
-
-#### Logomark
-
-Created using my own metodology of logos creations. 
-
-
-#### 1) Concepts
+### Prodmais before my entry into the project
 
 <p align="center">
-  <img src="__readme_src/01.png">
+  <img src="__readme_src/before.png">
 </p>
 
 
-**Brain** — Academic production  
-**Cloud** — Cloud computing
+### Prodmais after my work
 
-#### 2) Construction
-
-<p align="center">
-  <img src="__readme_src/02.png">
-</p>
-
-
-**Brain + Cloud** — A whole composed of various components. A symbol that demonstrate that the production of knowledge is extensive and steeped in the production of prior knowledge. 
-
-#### 3) Composition
-
-<p align="center">
-  <img src="__readme_src/03.png">
-</p>
-
-
-**Typography** — Created with the smae elements at the logo sign.
-
-
-
-#### The result
-
-<p align="center">
-  <img src="__readme_src/06.png">
-</p>
-
-
-#### Home page
-
-I followed a minimalist line with use of white space and less information. *Less is more.* 
 
 <p align="center">
   <img src="__readme_src/now.png">
@@ -95,6 +48,7 @@ I followed a minimalist line with use of white space and less information. *Less
 <p align="center">
   <img width="300" src="__readme_src/mobile.png">
 </p>
+
 
 ## Coding
 
