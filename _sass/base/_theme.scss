@@ -1,0 +1,42 @@
+// == THEME == // 
+
+$palette: (
+
+	bg-primary:		#fff,
+	fg-primary:		#1C9AD1,
+	titles: 			#1C9AD1,
+	my-high-1: 	  #7fd1f5,
+	my-high-2: 		#7fd1f5,
+	link: 				#1C9AD1,
+	
+  // navbar
+	bg-navbar: 		#1C9AD1,
+	border-nav:   #7fd1f5,
+	nav-dropdown: #1C9AD1,
+
+	// footer
+	footer-bg:    #5D866C,
+	footer-fg:    #EAEAEA,
+
+	footer-link:  #EAEAEA,
+	footer-hover: #D4DFD8,
+	footer-border:#A5C698,
+
+	input: #fff,
+
+	btn-1-bg:			  #1C9AD1,
+	btn-1-fg: 		  #1C9AD1,
+	btn-1-hover: #7fd1f5 
+
+);
+
+
+
+body {
+	background-color: _palette(bg-primary);
+}
+
+
+h1, h2, h3, h4, h5 {
+	color: _palette(titles);
+}

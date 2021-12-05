@@ -1,0 +1,37 @@
+---
+layout: default
+---		
+
+<main class="main">
+  
+    {%- include logo-home.html -%}      
+    
+    <h2 class="textbox">
+
+      Uma ferramenta de busca da produção científica de pesquisadores da UNIFESP.
+
+    </h2>
+      
+    {%- include my-search.html -%}
+    
+  {{ content }}
+
+</main>
+
+
+
+<script>
+  var app = new Vue({
+    el: '#mySearch',
+    data: {
+      searchPage: 'simple'
+    },
+    methods: {
+      changeSearch() {
+        if ( this.searchPage == 'simple' ) this.searchPage = 'advanced'
+        else this.searchPage = 'simple'
+      }
+    }
+  })
+  
+</script>

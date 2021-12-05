@@ -1,0 +1,87 @@
+// == CONTAINERS == //   
+
+// == CONTAINERS GERAIS == // 
+
+.div-h, .div-v
+  @include flex(column, center, center)
+  width: 100%
+
+@include breakpoint(md-up)
+  .div
+    &-h
+      flex-direction: row
+      justify-content: center
+
+
+@include breakpoint(md-up)
+  .div
+    &-search
+      width: 100%
+      max-width: 800px
+
+      &-date
+        
+        span  
+          color: _palette(fg-primary)
+          margin: 0 1rem
+          font-size: 1rem
+
+// == CONTAINERS DE TEXTO == // 
+
+.textbox
+  display: flex
+  flex-direction: column
+  align-content: center
+  padding: 1rem 0.5rem
+  max-width: 800px
+  text-align: center
+
+  p, h1, h2, h3 
+    text-align: center
+
+
+.small-info 
+  color: _palette(fg-primary)
+  text-align: center
+
+
+// == CONTAINERS DE PÁGINAS == // 
+
+.main, .manual-home, .manual-page
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: _palette(bg-1)
+  min-height: 700px
+  padding: .5rem
+
+
+.manual-home
+  background-image: url('/assets/img/manual/chart_mobo.jpg')
+  background-size:     cover                   
+  background-repeat:   no-repeat
+  background-position: center center
+
+  p
+    text-align: center
+
+
+
+
+@include breakpoint(md-up) 
+
+  .manual-page
+		padding: 6rem
+    margin: 0 2.5rem
+
+  .manual-home
+    background-image: url('/assets/img/manual/chart_desk.jpg')
+
+  .main
+    padding: 2rem
+  
+
+
+
+

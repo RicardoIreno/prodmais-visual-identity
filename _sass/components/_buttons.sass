@@ -1,0 +1,81 @@
+// == BUTTONS == // 
+
+@mixin border-btn 
+  border: 3px solid _palette(btn-1-fg)
+  border-radius: 30px
+
+
+@mixin hover-btn 
+  background-color: _palette(btn-1-hover)
+  border-color: _palette(btn-1-hover)  
+  -webkit-box-shadow: 0px 5px 10px -10px rgba(0,0,0,0.57)
+  -moz-box-shadow: 0px 5px 410px -10px rgba(0,0,0,0.57)
+  box-shadow: 5px 10px -10px rgba(0,0,0,0.57)
+  transition: all 0.2s ease 0s
+  
+
+
+.mybtn 
+	// min-width: 100px
+	color: _palette(btn-1-fg)
+	text-decoration: none
+	text-align: center
+	background: none
+	padding: 8px
+	display: inline-block
+	transition: all 0.3s ease 0s
+	margin: .5rem
+	cursor: pointer
+
+	@include border-btn
+
+	&:focus 
+		outline: none
+	
+	&:hover,&:focus 
+		@include hover-btn
+		border: none
+		color: #fff
+	
+
+	&-pesquisar 
+		fill: _palette(fg-primary)
+		background-color: transparent
+		border: none
+		cursor: pointer
+		-webkit-user-select: none
+		-moz-user-select: none
+		user-select: none
+
+		&:focus 
+			outline: none
+		
+	
+		&:hover,&:focus 
+			border: none
+
+			.myicon-pesquisar 
+				fill: _palette(my-high-1)
+			
+
+
+	&-menu 
+		width: 25px
+		fill: _palette(my-high-1)
+	
+
+	&-manual 
+		width: 200px
+	
+
+
+.btnback 
+  color: _palette(main)
+  font-size: 1.2rem
+  margin: 2rem
+  &:before 
+    content: "\02190"
+    color: _palette(main)
+    font-size: 2rem
+  
+

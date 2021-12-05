@@ -1,0 +1,57 @@
+// == ICONS == // 
+
+@mixin icon-mixin 
+	margin: .6rem
+	background-color: none
+  vertical-align: middle
+	transition: all 0.2s ease 0s
+
+
+.myicon 
+	fill: #1C9AD1
+  @include icon-mixin
+
+	&:hover 
+		fill: #72caf0
+
+	&-pesquisar 
+		margin: 2rem
+		width: 35px
+		&:hover 
+			width: 40px
+		
+	
+	&-changesearch 
+		width: 40px
+		&:hover 
+			width: 45px
+			fill: #fff
+		
+	
+	&-menu 
+		width: 25px
+		fill: _palette(my-high-1)
+    @include icon-mixin
+	
+
+	&-manual 
+		display: inline-block
+		margin-bottom: 1rem
+		transition: all 0.3s ease 0s
+
+		svg 
+			fill: _palette(btn-1-fg)
+			height: 20px
+			margin: .25rem
+		
+
+		&:hover   
+			@include hover-btn
+
+			svg 
+				fill: #fff
+				transition: all 0.2s ease 0s
+			
+
+		
+	

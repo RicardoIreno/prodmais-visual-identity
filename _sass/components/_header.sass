@@ -1,0 +1,21 @@
+// == HEADER == // 
+  
+.myheader
+  display: flex
+  top: 0
+  right: 0
+  left: 0
+  padding: .3rem 2rem
+  z-index: 1030
+  flex-direction: column
+  align-content: center
+  justify-item: center
+  background-color: _palette(bg-navbar)
+  border-bottom: _palette(border-nav) 6px solid 
+
+
+@include breakpoint(sm-up)
+  .myheader
+    height: 70px
+    justify-content: space-between
+    flex-direction: row
